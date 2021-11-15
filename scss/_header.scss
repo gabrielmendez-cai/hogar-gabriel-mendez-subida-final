@@ -1,0 +1,19 @@
+.container-fluid {
+    background: linear-gradient(to right, #468faf, #34a0a4, #a9d6e5);
+    font-family: "Amaranth", sans-serif bold black;
+    font-family: "Explora", cursive;
+    text-transform: uppercase;
+    // font-size: 3rem;
+    padding: 1rem 2rem;
+    .nav-item {
+      justify-content: space-between;
+      padding-right: 10rem;
+      margin: 1 rem 2rem;
+    }
+    .nav-link {
+      font-size: 1rem;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      box-shadow: 0px 1px;
+      opacity: 0.8;
+    }
+  }

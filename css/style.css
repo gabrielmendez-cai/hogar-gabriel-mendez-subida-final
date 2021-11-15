@@ -1,0 +1,165 @@
+.body {
+  background: linear-gradient(to right, #468faf, #34a0a4, #a9d6e5);
+  overflow-x: hidden;
+}
+
+.LEAD {
+  font-family: "Red Hat Display", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  text-align: center;
+  box-shadow: 0rem 0rem 2rem black;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+}
+
+.container1 {
+  display: flex;
+  font-size: 1rem;
+  box-shadow: 0rem 0rem 2rem black;
+  opacity: 0.8;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.container1 .font_1 {
+  font-family: "Red Hat Display", sans-serif;
+  font-family: "Work Sans", sans-serif;
+  font-family: "Great Vibes", cursive;
+  font-size: 2rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*footer*/
+.footBsIndex h3 {
+  font-size: 2rem;
+  font-family: "Red Hat Display", sans-serif;
+  box-shadow: 0 0 2rem;
+  opacity: 0.8;
+  width: 100rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+}
+
+.icons {
+  padding: 1rem 5rem;
+}
+
+.row_Foot {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col_Foot {
+  padding: 1rem 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  justify-content: space-between;
+}
+
+.container {
+  margin-left: 1rem;
+}
+
+.container-fluid {
+  background: linear-gradient(to right, #468faf, #34a0a4, #a9d6e5);
+  font-family: "Amaranth", sans-serif bold black;
+  font-family: "Explora", cursive;
+  text-transform: uppercase;
+  padding: 1rem 2rem;
+}
+.container-fluid .nav-item {
+  justify-content: space-between;
+  padding-right: 10rem;
+  margin: 1 rem 2rem;
+}
+.container-fluid .nav-link {
+  font-size: 1rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-shadow: 0px 1px;
+  opacity: 0.8;
+}
+
+.jumbotron {
+  background: linear-gradient(to right, #468faf, #34a0a4, #a9d6e5);
+  padding: 2rem 1rem;
+  box-shadow: 0rem 0rem 2rem black;
+  opacity: 0.8;
+}
+
+.cont-1 {
+  font-size: 2.5rem;
+  font-family: "Amaranth", sans-serif;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.nosotros_parra {
+  font-size: 2rem;
+  font-family: "Amaranth", sans-serif;
+  font-family: "Explora", cursive;
+  font-family: "Great Vibes", cursive;
+  display: flex;
+  padding-left: 3rem;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+.nosotros_parra .col-sm-12 {
+  margin-right: 4rem;
+}
+
+.containerr {
+  display: flex;
+  padding-left: 2rem;
+  margin-left: 5.5rem;
+}
+.containerr .Nos-par {
+  margin-left: 3rem;
+}
+
+.mt-3 {
+  animation: anima_home 1.5s ease;
+  animation-iteration-count: infinite;
+}
+
+/* Animacion*/
+@keyframes anima_home {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.contacto_cont {
+  opacity: 1;
+}
+.contacto_cont .text_Contacto {
+  font-family: "Carattere", cursive;
+  font-family: "Gideon Roman", cursive;
+}
+
+.formu {
+  font-family: "Carattere", cursive;
+  font-family: "Gideon Roman", cursive;
+  font-size: 0.8rem;
+}
+.formu .form-label {
+  margin-right: 1rem;
+}
+.formu .form-select {
+  font-family: "Carattere", cursive;
+  font-family: "Gideon Roman", cursive;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=style.css.map */
