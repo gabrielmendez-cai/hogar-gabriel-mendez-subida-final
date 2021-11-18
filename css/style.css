@@ -36,36 +36,19 @@
 }
 
 /*footer*/
-.footBsIndex h3 {
+.h3-foot {
   font-size: 2rem;
   font-family: "Red Hat Display", sans-serif;
   box-shadow: 0 0 2rem;
   opacity: 0.8;
-  width: 100rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-top: 3rem;
+  padding: 0.5rem 1rem;
+}
+
+.col {
+  font-size: 2rem;
+  justify-content: space-around;
   display: flex;
-}
-
-.icons {
-  padding: 1rem 5rem;
-}
-
-.row_Foot {
-  display: flex;
-  justify-content: space-between;
-}
-
-.col_Foot {
-  padding: 1rem 0.5rem;
-  display: flex;
-  align-items: center;
-  font-size: 1.5rem;
-  justify-content: space-between;
-}
-
-.container {
-  margin-left: 1rem;
 }
 
 .container-fluid {
