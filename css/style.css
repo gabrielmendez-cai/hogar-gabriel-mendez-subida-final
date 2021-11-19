@@ -97,6 +97,7 @@
 }
 .row_Nos .col_Nos {
   padding: 1rem 1rem;
+  display: flex;
 }
 
 .containerr {
@@ -111,6 +112,7 @@
 .mt-3 {
   animation: anima_home 1.5s ease;
   animation-iteration-count: infinite;
+  margin-left: 0.5rem;
 }
 
 /* Animacion*/
