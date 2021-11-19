@@ -15,22 +15,17 @@
 
 .row_Nos{
     font-size: 2rem;
-    font-family: "Amaranth", sans-serif;
-  
     font-family: "Explora", cursive;
     font-family: 'Great Vibes', cursive;
     display: flex;
-    // padding-left: 3rem;
-    // margin-left: 2rem;
-    margin-bottom: 1rem;
-    margin-top: 3rem;
-    padding-right: 10rem;
-   
-   
-    .col-sm-12{
-        margin-right: 4rem;
+    padding: 2rem 1rem;
+    justify-content: space-around;
+    .col_Nos{
+        padding: 1rem 1rem;
     }
 }
+   
+
 .containerr {
     display: flex;
     padding-left: 2rem;
